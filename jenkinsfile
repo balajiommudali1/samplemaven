@@ -23,7 +23,7 @@ stages{
             }
         }
  
-        stage ('Deployments'){
+        stage ('Deploymentsdsdsdsdsd'){
             parallel{
                 stage ('Deploy to Staging'){
                     steps {
