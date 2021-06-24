@@ -11,7 +11,7 @@ pipeline {
      }
  
 stages{
-        stage('Build'){
+        stage('Builddsdsd'){
             steps {
                 bat 'mvn clean package'
             }
@@ -23,7 +23,7 @@ stages{
             }
         }
  
-        stage ('Deployments'){
+        stage ('Deploymentsdsdsdsdsdsds'){
             parallel{
                 stage ('Deploy to Staging'){
                     steps {
